@@ -1,0 +1,242 @@
+body {
+    font-family: "montserrat";
+}
+
+#title {
+    color: white;
+    background-color: #ff4668;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Roboto', 'montserrat';
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Roboto', 'montserrat';
+    
+}
+
+
+#title .container-fluid {
+    padding: 3% 15% 11%;
+
+
+}
+.colored-section{
+    background-color: #ff4668;
+}
+
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+
+}
+
+/* .navbar */
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-size: bold;
+
+
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {}
+
+.navbar-nav {
+    margin-right: 6%;
+}
+
+/* title image */
+.titleimage {
+
+
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+
+@media (max-width:1100px) {
+    #title {
+        text-align: center;
+    }
+
+    .titleimage {
+        position: static;
+        transform: rotate(0);
+    }
+
+
+}
+
+/* awesome icons */
+#features {
+    background-color: white;
+    position: relative;
+
+    padding: 7% 20%;
+
+
+
+
+}
+
+
+
+.Features-box {
+
+    text-align: center;
+    padding: 5.1%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+
+}
+
+/* testimonials-section */
+#testimonials {
+
+
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+
+
+
+.dog-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2px;
+
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    
+   
+
+}
+.Press-logo{
+    margin: 20px;
+  
+}
+
+
+
+
+
+.carousel-item {
+    padding: 7% 15%;
+
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+
+    width: 40px;
+    height: 40px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.column-pricing {
+
+    padding: 0% 5%;
+}
+
+/* call to action */
+
+.font-Montserrat {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    top: 100px;
+
+
+
+
+}
+
+.button-class {
+    margin-top: 3%;
+    position: relative;
+    top: 100px;
+
+
+
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 250px;
+
+
+
+
+}
+
+#footer {
+    text-align: center;
+    padding: 7%;
+
+
+}
+
+.brand-names {
+
+    padding: 10px;
+
+}
+
+.copy {
+    padding-bottom: 3%;
+    font-size: 20px;
+    color: grey;
+
+
+}
